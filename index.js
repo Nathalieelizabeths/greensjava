@@ -10,5 +10,13 @@ document.getElementById('fruList').appendChild(newfruit);
 let newvege =document.createElement('li');
 newvege.innerHTML='cabbage'
 document.getElementById('vegList').appendChild(newvege);
-document.getElementById('banana').style.maxWidth('200px')
-document.getElementById('apple').style.maxWidth('200px')
+document.getElementById('bananas').style.maxWidth='200px';
+
+
+document.getElementById('apple').style.maxWidth = '200px';
+document.getElementById('range').style.maxWidth = '200px';
+
+document.getElementById('onion').style.maxWidth = '200px';
+document.getElementById('cabbege').style.maxWidth = '200px';
+document.getElementById('tomato').style.maxWidth = '200px';
+
